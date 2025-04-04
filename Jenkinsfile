@@ -16,6 +16,5 @@ steps {
   Echo "this is test step"
 }
 }
-
   }
 }
