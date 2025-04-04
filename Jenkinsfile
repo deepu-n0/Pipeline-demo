@@ -11,9 +11,11 @@ pipeline {
             steps {
                 echo "Hello, my name is ${MY_NAME}"
                 echo "print ${MY_SECRET}"
+		//echo
                 // Do NOT print MY_SECRET directly - this is sensitive
                 sh 'echo "My secret has been securely loaded."'
             }
         }
     }
+	
 }
